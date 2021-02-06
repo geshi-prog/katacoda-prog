@@ -1,0 +1,26 @@
+{
+  "title": "Pythonのインストール方法",
+  "description": "Pythonのインストール方法についてまとめました。",
+  "difficulty": "Beginner",
+  "time": "5m",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

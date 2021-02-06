@@ -1,0 +1,11 @@
+{
+  "title": "Pythonの基礎",
+  "description": "Pythonの基礎をまとめました。",
+  "courses": [
+    {
+      "course_id": "installPython",
+      "title": "Pythonのインストール方法",
+      "description": "Pythonのインストール方法についてまとめました。"
+    }
+  ]
+}
