@@ -1,0 +1,11 @@
+{
+    "title": "Goの基礎",
+    "description": "Goの基礎をまとめました。",
+    "courses": [
+        {
+            "course_id": "buildGo",
+            "title": "Goを実際に動かしてみる",
+            "description": "Goを実際に動かしてみましょう！"
+        }
+    ]
+}
