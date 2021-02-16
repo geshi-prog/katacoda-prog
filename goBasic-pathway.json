@@ -6,6 +6,11 @@
             "course_id": "buildGo",
             "title": "Goを実際に動かしてみる",
             "description": "Goを実際に動かしてみましょう！"
+        },
+        {
+            "course_id": "ch001",
+            "title": "第１回:Goのプリミティブ型",
+            "description": "Goのプリミティブ型の紹介"
         }
     ]
 }
