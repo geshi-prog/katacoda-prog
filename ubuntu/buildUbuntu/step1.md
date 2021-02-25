@@ -1,28 +1,27 @@
-## HelloWorldを実行する
-まずは、インストールされているGoのバージョンを確認してみます。
-`go version`{{execute}}<br>
-次にhello.goを作成してみましょう。GOのプログラムファイルの拡張子は.goになります。`hello.go`{{open}}<br>
-それでは、実際に動かしてみます。
+## ubuntuのイメージをPULLする。
 
-### go run
-<br>`go run ./hello.go`{{execute}}<br>
-実際に動くことを確認出来たらバイナリファイルにビルドしてみます。
+`docker pull ubuntu:latest`{{execute}}<br>
 
-### go build
-<br>`go build ./hello.go`{{execute}}<br>
-実際に作成されたかを確認してみます。
-<br>`ls`{{execute}}<br>
-helloが出来てれば大丈夫です！<br>
-それでは、作成されたhelloが動くか確認します。
-<br>`./hello`{{execute}}<br>
-作成するファイル名を指定したい場合「-o」を使います。
-<br>`go build -o hello_world hello.go`{{execute}}<br>
-`ls`{{execute}}<br>
-`./hello_world`{{execute}}<br>
+## 動画を流してみる
 
-### このステップのポイント
-* goの拡張子は「.go」
-* プログラムを実行する時は、「go run」
-* プログラムをビルドする時は、「go build」
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=1fJMdKeL34M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-次のステップではサードパーティのツールのインストールなどを行います。
+## 画像を表示してみる
+
+![Sammy Campaign](./assets/001.jpg)
+
+## クイズを実装する
+>>Q1: テストと正しく入力してください<<
+=== テスト
+
+>>Q2: テストを含む文字を入力してください<<
+=~= テスト
+
+>>Q3: 正しい物を以下から全て選んでください<<
+[*] 正しい
+[*] 正しい
+[ ] 間違い
+
+>>Q4: 正しい方のどちらか一つを選んでください<<
+(*) 正しい
+( ) 間違い
