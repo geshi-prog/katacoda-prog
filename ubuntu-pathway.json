@@ -1,0 +1,11 @@
+{
+    "title": "Ubuntuの基礎",
+    "description": "Ubuntuの基礎をまとめました。",
+    "courses": [
+        {
+            "course_id": "buildUbuntu",
+            "title": "Ubuntuを実際に動かしてみる",
+            "description": "Ubuntuを実際に動かしてみましょう！"
+        }
+    ]
+}
