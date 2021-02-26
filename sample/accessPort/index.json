@@ -30,7 +30,7 @@
         "sample.txt"
     ],
     "environment": {
-        "uilayout": "trminal",
+        "uilayout": "editor-terminal",
         "uieditorpath": "/root/src",
         "hideHiddenFiles": true,
         "showide": true,
