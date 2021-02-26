@@ -1,0 +1,12 @@
+{
+    "title": "色々検証用",
+    "description": "色々検証するためのコースです。",
+    "private": true,
+    "courses": [
+        {
+            "course_id": "accessPort",
+            "title": "Portに接続する",
+            "description": "Portに接続してみましょう！"
+        }
+    ]
+}

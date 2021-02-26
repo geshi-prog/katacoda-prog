@@ -1,0 +1,62 @@
+{
+    "title": "ポートに繋いでみたい",
+    "description": "ポートに繋いでみる？",
+    "difficulty": "Beginner",
+    "time": "5m",
+    "details": {
+        "steps": [
+            {
+                "title": "1ページ目",
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "credits": "ixit-hayato-geshi"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "**/*.*",
+                    "target": "/root/src"
+                }
+            ]
+        }
+    },
+    "files": [
+        "sample.txt"
+    ],
+    "environment": {
+        "uilayout": "trminal",
+        "uieditorpath": "/root/src",
+        "hideHiddenFiles": true,
+        "showide": true,
+        "showvisualise": true,
+        "showdashboard": true,
+        "dashboards": [
+            {
+                "name": "localhost:8000",
+                "href": "http://127.0.0.1:8000/"
+            },
+            {
+                "name": "Port 8000",
+                "port": 8000
+            }
+        ],
+        "terminals": [
+            {
+                "name": "Docker stats",
+                "command": "docker stats",
+                "target": "host01"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "python:3.8",
+        "port": 8000
+    },
+    "private": true
+}
